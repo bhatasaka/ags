@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "qmi_symbs")(type "KiCad")(uri "${KIPRJMOD}/qmi_symbs.kicad_sym")(options "")(descr ""))
+)

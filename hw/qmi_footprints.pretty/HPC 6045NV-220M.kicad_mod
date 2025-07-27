@@ -1,0 +1,120 @@
+(footprint "HPC 6045NV-220M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor 6060")
+	(property "Reference" "REF**"
+		(at 0.2794 -7.7724 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0d1490d0-7b2c-4776-9666-7ea0ca61f3b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HPC 6045NV-220M"
+		(at 0.2794 -6.2724 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5424a7c7-5c5b-41ac-9587-bbcc7db59dbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "251a3b6f-ffd9-4c46-8f45-290964dcdc0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62113971-2708-4866-89e9-a6aa96cd3108")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5052 -3.5052)
+		(end 3.4948 3.4948)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "15452ae7-ad61-47bb-8874-9a419840c0ca")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "a657e9ae-8871-423b-a38d-4f92c5103aa6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2794 -4.7724 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e272927b-79eb-4694-bf1e-5a7a3cebd568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.1 0)
+		(size 2 6.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c460651e-1476-40d3-b3f0-4741750eaead")
+	)
+	(pad "1" smd roundrect
+		(at 2.1 0)
+		(size 2 6.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "8d78eb06-ee61-42ff-8f24-820b881bd3a8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_models/IND_HPC6045NV_TTA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
