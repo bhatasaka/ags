@@ -2745,7 +2745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "qmi_footprints:QT02ASF83H0000G"
 			(at 72.39 83.82 0)
 			(effects
 				(font

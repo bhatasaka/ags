@@ -2608,7 +2608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-4_4.4x4.3mm_P2.54mm"
 			(at 125.73 64.77 0)
 			(effects
 				(font

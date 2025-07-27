@@ -5900,7 +5900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "qmi_footprints:B38G3RGB-10D0003H2U1930"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -7124,7 +7124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "qmi_footprints:QT08ASF83H0000G"
 			(at 219.71 137.16 0)
 			(effects
 				(font
@@ -7266,15 +7266,15 @@
 				)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
-			(at 88.9 107.95 90)
+		(property "Value" "PTS526SM15SMTR2 LFS"
+			(at 95.25 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "qmi_footprints:SON4_PTS526 SM15 SMTR2 LFS_CNK"
 			(at 87.63 102.87 0)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+		(property "Datasheet" ""
 			(at 87.63 102.87 0)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
+		(property "Description" ""
 			(at 80.01 102.87 0)
 			(effects
 				(font
