@@ -1529,7 +1529,7 @@
 	)
 	(text "May DNP snubber with testing"
 		(exclude_from_sim no)
-		(at 164.846 86.614 0)
+		(at 167.386 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,6 +2135,15 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "0603B272K500CT"
+			(at 146.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86de6fcc-3e96-4147-af35-98487310c858")
 		)
@@ -2251,6 +2260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "SM4007PL"
+			(at 107.95 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca0463bd-4f6a-4f9d-875c-0c9a03222a92")
 		)
@@ -2339,6 +2357,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-P06F1000V"
+			(at 130.81 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,6 +2564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "0ZCF0075AF2C"
+			(at 85.09 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db78f699-b3e3-4d5c-b832-fd90415462aa")
 		)
@@ -2638,6 +2674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "GAQY212GSX"
+			(at 130.81 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c47382f2-0579-49db-aa36-b6ec654c47c9")
 		)
@@ -2705,7 +2750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 60V"
 			(at 144.018 87.122 90)
 			(effects
 				(font
@@ -2738,6 +2783,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1608X7R2A105K080AC"
+			(at 142.24 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2828,6 +2882,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-07113KL"
 			(at 123.19 107.95 0)
 			(effects
 				(font
@@ -2945,6 +3008,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SM4007PL"
+			(at 107.95 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,6 +3309,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "SMAJ60CA/TR13"
+			(at 93.98 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaad7e73-275e-426a-977e-d4b0ab2fccc4")
 		)
@@ -3426,6 +3507,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF0603JT270R"
+			(at 119.38 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64e15bce-ae4f-4eb5-a129-dbd5a5791fd8")
 		)
@@ -3514,6 +3604,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-075K9L"
 			(at 123.19 121.92 0)
 			(effects
 				(font

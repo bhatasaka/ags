@@ -1842,6 +1842,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Place close to MCU"
+		(exclude_from_sim no)
+		(at 140.462 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "289f55d4-ea33-4768-b701-a23b6a904624")
+	)
 	(text "3.3v Buck\n"
 		(exclude_from_sim no)
 		(at 143.764 71.374 0)
@@ -1874,6 +1884,12 @@
 		(uuid "28cf7f7c-799b-4636-85d5-a2b35871394c")
 	)
 	(junction
+		(at 127 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33636e42-d4a0-4096-bd3b-9427e9cc0a9a")
+	)
+	(junction
 		(at 184.15 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1896,6 +1912,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92866fb6-f2df-499f-bed0-33804dd0b311")
+	)
+	(junction
+		(at 113.03 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9677bcf9-22d9-4491-9c24-ef09ecd1c613")
 	)
 	(junction
 		(at 184.15 88.9)
@@ -1929,6 +1951,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 127) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13710f1d-b59c-4045-992b-a2580b09c9dd")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 124.46 88.9)
 		)
 		(stroke
@@ -1959,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 144.78) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376e0526-d574-4958-ae0c-763a43f3a098")
+	)
+	(wire
+		(pts
 			(xy 132.08 81.28) (xy 135.89 81.28)
 		)
 		(stroke
@@ -1976,6 +2018,16 @@
 			(type default)
 		)
 		(uuid "4ab60a7d-e970-4e35-ab32-1f1c223da0e2")
+	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1b9ab9-e7e7-4187-b61f-9db6205d05ce")
 	)
 	(wire
 		(pts
@@ -1999,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 124.46) (xy 113.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2d7eee-59b6-4e0d-9cc8-7edacb3bbc74")
+	)
+	(wire
+		(pts
 			(xy 132.08 88.9) (xy 132.08 91.44)
 		)
 		(stroke
@@ -2006,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "66af4dbc-375e-4280-9215-39e247b7c8c8")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 146.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675ae1a5-61ab-4226-b659-e89a8ee2dbba")
 	)
 	(wire
 		(pts
@@ -2036,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "6cbc373f-e9c4-40a3-b215-3f30081a295b")
+	)
+	(wire
+		(pts
+			(xy 113.03 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71256b16-517a-4fcb-a597-cf4e4d72567d")
 	)
 	(wire
 		(pts
@@ -2149,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 144.78) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb6cffb-d9f1-405d-9fa0-42ceec897f93")
+	)
+	(wire
+		(pts
 			(xy 190.5 81.28) (xy 200.66 81.28)
 		)
 		(stroke
@@ -2246,6 +2338,17 @@
 			(type default)
 		)
 		(uuid "f97fb425-51ad-4e02-8885-e0dca611013e")
+	)
+	(hierarchical_label "SENSE_VIN"
+		(shape passive)
+		(at 146.05 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80ed74ec-76f1-4265-a96a-7cd877492d72")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2364,6 +2467,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "AC0603FR-13100KL"
+			(at 180.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41f21127-758a-4b0d-807c-f93ee0941647")
 		)
@@ -2432,6 +2544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10B104KC8NNNC"
+			(at 167.64 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f0637fd-21df-4adf-9b02-814586201bc6")
 		)
@@ -2442,6 +2563,72 @@
 			(project "ags"
 				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 113.03 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24b7e578-8b04-4217-87cf-f18a6fd2b506")
+		(property "Reference" "#PWR077"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V"
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "369ce17b-a2b8-4191-8522-bda171a9723a")
+		)
+		(instances
+			(project "ags"
+				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2580,6 +2767,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 127 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36b899ec-818f-4a54-9bdf-24f00ea36b11")
+		(property "Reference" "#PWR076"
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92940912-ccdb-4aeb-84b7-1a5a61b823e5")
+		)
+		(instances
+			(project "ags"
+				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 72.39 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2644,6 +2897,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 127 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eed4846-31a2-45ae-b9a7-195b63c5ccc8")
+		(property "Reference" "C26"
+			(at 128.27 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7n"
+			(at 128.27 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127.9652 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0603B272K500CT"
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c1fcb7b-09f6-4366-a030-d8485cb1fa23")
+		)
+		(pin "2"
+			(uuid "4af8f6cd-863f-4ef9-8bc6-6e012e831445")
+		)
+		(instances
+			(project "ags"
+				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ60CA")
 		(at 91.44 86.36 90)
 		(unit 1)
@@ -2691,6 +3021,15 @@
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 60.0Vr, SMA(DO-214AC)"
 			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMAJ60CA/TR13"
+			(at 91.44 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,6 +3171,15 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10B104KC8NNNC"
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35ea13f7-9b6b-4157-9c0a-9e07730dffc8")
 		)
@@ -2898,6 +3246,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CC72A475ME11K"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2968,6 +3325,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "QT02ASF83H0000G"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e3f243e-995f-465b-a751-b08bb4ea9610")
 		)
@@ -2978,6 +3344,83 @@
 			(project ""
 				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9786029e-8825-41d8-b5c3-9333041bdb9f")
+		(property "Reference" "R42"
+			(at 115.824 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "113k 1%"
+			(at 118.872 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.252 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-07113KL"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d710000b-6557-4f39-a681-04e45b1945eb")
+		)
+		(pin "2"
+			(uuid "4572c079-dc2a-4b6d-8860-942693d3b318")
+		)
+		(instances
+			(project "ags"
+				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3054,6 +3497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "SM4007PL"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a46055f-31f0-4bd5-99c1-33296d0e6044")
 		)
@@ -3120,6 +3572,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer Part Number" "JMK212BBJ226MGHT"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3193,6 +3654,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "LMR51610XDBVR"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3c6d823e-ca4c-41c8-8e79-81bfb8c45c3b")
 		)
@@ -3215,6 +3685,83 @@
 			(project "ags"
 				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be91201e-7799-4c6a-a179-219b3cb16c3f")
+		(property "Reference" "R43"
+			(at 115.824 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.90k 1%"
+			(at 119.38 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.252 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-075K9L"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42b8148f-5d1f-4bb7-b2de-d4a7588ba8c8")
+		)
+		(pin "2"
+			(uuid "cc12fb88-494f-4e8c-93cf-dc8f2291e7e1")
+		)
+		(instances
+			(project "ags"
+				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3337,6 +3884,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "HPC 6045NV-220M"
+			(at 180.34 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c1f39b7-049a-4dfe-b683-33c504200a7c")
 		)
@@ -3406,6 +3962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "0ZCF0075AF2C"
+			(at 81.28 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ff1cffd-6141-4167-9237-6f9c3658e3ba")
 		)
@@ -3416,6 +3981,72 @@
 			(project ""
 				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6b9edfb-dc98-4878-a12a-7183dd334714")
+		(property "Reference" "#PWR075"
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43aba3b3-f052-4bb0-9442-a2b08091976d")
+		)
+		(instances
+			(project "ags"
+				(path "/8628365c-ce75-424b-bd1d-e5e49a0b0d03/66189bb5-fff0-4335-b172-0550c8f6e736"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3473,6 +4104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RNCF0603BTE32K0"
+			(at 180.34 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17084f7c-a795-4b4e-b6a5-f9ec920530ad")
 		)
@@ -3506,7 +4146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22u 80V"
 			(at 107.696 87.884 0)
 			(effects
 				(font
@@ -3534,6 +4174,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RPF0610220M080K"
 			(at 114.3 85.09 0)
 			(effects
 				(font

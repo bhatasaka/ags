@@ -4876,6 +4876,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 64.77) (xy 45.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ab8f08-1ba0-47c4-a3f2-9b21874b1e35")
+	)
+	(wire
+		(pts
 			(xy 115.57 29.21) (xy 110.49 29.21)
 		)
 		(stroke
@@ -5603,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "a70253c5-e27b-4ac1-bf6c-166b2fdd910b")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaeb429b-a1da-4d7e-9b38-3bfe0d38e6e1")
 	)
 	(wire
 		(pts
@@ -6355,7 +6375,7 @@
 		(uuid "22da4777-ed02-46e1-9f8e-df38cc4ba013")
 	)
 	(label "SENSE_2"
-		(at 33.02 59.69 0)
+		(at 33.02 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6445,7 +6465,7 @@
 		(uuid "43fbbfb7-ea68-42f3-bf8a-d937c7241a7c")
 	)
 	(label "SENSE_1"
-		(at 33.02 62.23 0)
+		(at 33.02 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6465,7 +6485,7 @@
 		(uuid "4a1886a8-2926-4a23-b51a-9d29eaf7b083")
 	)
 	(label "SENSE_4"
-		(at 33.02 54.61 0)
+		(at 33.02 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6514,6 +6534,16 @@
 		)
 		(uuid "5b331542-a106-46dc-8965-535f494c68de")
 	)
+	(label "SENSE_VIN"
+		(at 127 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e6a4a28-a108-424a-a38c-6645313cc959")
+	)
 	(label "COMM_V"
 		(at 238.76 74.93 0)
 		(effects
@@ -6555,7 +6585,7 @@
 		(uuid "6f10e090-1abc-43c1-a0ec-b670a2f305e2")
 	)
 	(label "SENSE_8"
-		(at 33.02 41.91 0)
+		(at 33.02 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6654,6 +6684,16 @@
 		)
 		(uuid "7fb52994-1951-458f-9b9e-379e5fa6916e")
 	)
+	(label "SENSE_VIN"
+		(at 33.02 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "822cfd7d-f406-4acd-9e9c-a0fd3fe018b0")
+	)
 	(label "TX"
 		(at 171.45 34.29 180)
 		(effects
@@ -6695,7 +6735,7 @@
 		(uuid "8ba7f3bf-3ead-4dc4-ad4c-864c82cc6f6c")
 	)
 	(label "SENSE_6"
-		(at 33.02 49.53 0)
+		(at 33.02 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6785,7 +6825,7 @@
 		(uuid "a6f3cb53-d15e-4782-8acb-6940c0b40ce2")
 	)
 	(label "SENSE_3"
-		(at 33.02 57.15 0)
+		(at 33.02 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6955,7 +6995,7 @@
 		(uuid "d64cdc5f-2ccd-42a9-88b1-2a9c251351f0")
 	)
 	(label "SENSE_7"
-		(at 33.02 44.45 0)
+		(at 33.02 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7025,7 +7065,7 @@
 		(uuid "eeb6b941-ead8-4a75-a94f-33c6e92e64af")
 	)
 	(label "SENSE_5"
-		(at 33.02 52.07 0)
+		(at 33.02 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7081,7 +7121,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0037972f-df37-4111-a156-c408c6901f5d")
 		(property "Reference" "J2"
 			(at 121.92 23.6982 0)
@@ -7209,6 +7249,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RMCF0603JT1K00"
+			(at 91.44 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,6 +7529,15 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10B104KC8NNNC"
+			(at 55.88 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60d56aaa-a7e4-4814-887e-c2ac60ce05e6")
 		)
@@ -7542,6 +7600,15 @@
 		)
 		(property "Description" "RGB LED, green/blue/anode/red"
 			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B38G3RGB-10D0003H2U1930"
+			(at 107.95 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,6 +7757,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "AC0603FR-075K9L"
+			(at 162.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7fd64f3-1290-4d25-b7c8-54beebf47a74")
 		)
@@ -7750,6 +7826,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-075K9L"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -7956,6 +8041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF0603JT1K00"
+			(at 91.44 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "448a15d5-c1ea-404d-8b14-5027b3fd723b")
 		)
@@ -8022,6 +8116,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer Part Number" "JMK212BBJ226MGHT"
+			(at 55.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8418,6 +8521,15 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+			(at 109.22 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e761b2df-6c0f-495c-8d34-e41d1d1d188b")
 		)
@@ -8480,6 +8592,15 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 8Kb (1024x8) with Unique Serial Number, SO8"
+			(at 123.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NV24C08DWVLT3G"
 			(at 123.19 168.91 0)
 			(effects
 				(font
@@ -8566,6 +8687,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-075K9L"
 			(at 148.59 158.75 0)
 			(effects
 				(font
@@ -8720,6 +8850,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RMCF0603JT270R"
+			(at 93.98 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb0729c3-baa0-4fc7-b97d-4112ac729749")
 		)
@@ -8742,7 +8881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71d017a3-47a4-420e-866b-4d1ca6d33e2a")
 		(property "Reference" "J4"
@@ -9134,6 +9273,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "ESP32-S3-MINI-1-N8"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "0335a205-25fe-43bb-88ac-67fdbfbf4c0c")
 		)
@@ -9456,6 +9604,15 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "CL10B105KP8NNNC"
+			(at 25.4 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82f877bf-c8a1-4d18-98e5-5c9b3a0feced")
 		)
@@ -9580,6 +9737,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "QT08ASF83H0000G"
 			(at 219.71 137.16 0)
 			(effects
 				(font
@@ -9870,6 +10036,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "PTS526SM15SMTR2 LFS"
+			(at 104.14 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e8f8b3ec-9d59-4dc8-a376-e8db2fdef185")
 		)
@@ -10070,6 +10245,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RMCF0603JT1K00"
+			(at 91.44 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,7 +10721,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 109.22)
+		(at 139.7 97.79)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10553,7 +10737,7 @@
 		)
 		(uuid "66189bb5-fff0-4335-b172-0550c8f6e736")
 		(property "Sheetname" "Power"
-			(at 119.38 108.5084 0)
+			(at 139.7 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,12 +10746,22 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 119.38 121.2346 0)
+			(at 139.7 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SENSE_VIN" passive
+			(at 139.7 101.6 180)
+			(uuid "3dc979f8-ace3-4f72-8f6c-732f3f28a3fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
